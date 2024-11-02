@@ -1,3 +1,21 @@
+:root {
+  --D-Primary-main: #58733D;
+  --D-Secondary-main: #F29849;
+  --D-Tertiary-main: #F27C38;
+  --D-font:"Amethysta";
+  --D-text: #101010;
+}
+
+p {
+  font-family: var(--D-font);
+  color: var(--D-text);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--D-font);
+}
+
+
 .my-button {
-  background-color: #c90f0d;
+  background-color: var(--D-Primary-main);
 }

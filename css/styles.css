@@ -3,11 +3,12 @@
   --D-Secondary-main: #F29849;
   --D-Tertiary-main: #F27C38;
   --D-font:"Amethysta";
+  --D-font-text: "Roboto";
   --D-text: #101010;
 }
 
 p {
-  font-family: var(--D-font);
+  font-family: var(--D-font-text);
   color: var(--D-text);
 }
 
